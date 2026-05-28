@@ -50,7 +50,7 @@ else
   echo -e "  ${DIM}2. Salin authtoken anda${NC}"
   echo -e "  ${DIM}3. Jalankan: ngrok config add-authtoken TOKEN_ANDA${NC}"
   echo ""
-  echo -ne "  Masukkan token ngrok anda: "
+  echo -ne "  ngrok config add-authtoken 3DobSG41WxLRBQg2SiR5Gts052p_3Zj1EV9mHVRahzywPLD52: "
   read -r TOKEN
   if [ -n "$TOKEN" ]; then
     ngrok config add-authtoken "$TOKEN"
